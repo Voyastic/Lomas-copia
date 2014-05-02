@@ -1,0 +1,110 @@
+
+
+	
+	@media only screen and (max-width: 1300px) {
+		.mapping,.making,.match{height: 400px;background-size: 200%}
+.contact{height: 500px; width: 100%; background-size: 170%}
+.slider{height: auto;margin: 0}
+	}
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {
+.contact{height: 500px; width: 100%; background-size: 190%}
+
+	}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+.mapping,.making,.match{height: 300px;background-size: 200%}
+.contact{height: 500px; width: 100%; background-size: 200%}
+h3{font-size: 17px}
+h4{font-size: 13px}
+input,textarea{width: 300px; font-size: 13px}
+form button{width: 310px}
+	}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+.mapping,.making,.match{height: 280px;width: 100%}
+.menu{position: absolute; margin-left: 260px}
+.slider{height: 200px;margin: 0}
+.slider img{height: 200px; width: auto}
+.pattern3 h1{font-size: 12px;}
+.irport{zoom:80%;margin-top: 10px}
+.pattern h1{font-size: 18px;padding-top: 30px}
+.pattern img {display: none}
+.space{padding: 16px}
+h3{font-size: 17px}
+h4{font-size: 13px}
+.info{position: absolute;padding-left: 50px;padding-top: -30px}
+.contact{background-size: 680%;height: 850px}
+.gray,.white{background: none; height: 560px}
+.black{height: 850px}
+input,textarea{width: 230px; font-size: 13px}
+form button{width: 240px}
+.cont{padding-left: 30px}
+.irport2{margin-top: -20px; float: left;margin-bottom: 30px}
+footer{height: 250px}
+.sm2 img{margin-top: 30px}
+      .modal img {zoom:70%}
+ }
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+		.contact{background-size: 500%;height: 800px}
+.menu{position: absolute; margin-left: 400px}
+.pattern3 h1{font-size: 18px}
+h3{font-size: 17px}
+h4{font-size: 13px}
+.info{position: absolute;padding-left: 50px;padding-top: -30px}
+.black{height: 800px}
+.cont{padding-left: 40px}
+.pattern h1{font-size: 18px;padding-top: 30px}
+.pattern img{padding-top: 3px}
+.irport2{margin-top: -20px; float: left;margin-bottom: 30px}
+footer{height: 250px}
+.sm2 img{margin-top: 30px}
+.modal img {zoom:80%}
+.mapping h1,.making h1,.match h1{padding: 40px 0 0 0}
+.down{ position:absolute;padding:0px 0 0 550px; margin-top: -70px;zoom:70%;}
+.circle2{margin-left: 100px;margin-bottom: 0px;margin-top: 60px}
+.accordion-inner h5 { position: absolute;margin-top: -70px;}
+.accordion-inner ul {	padding-bottom: 100px;padding-top: 150px;}
+.mapping,.making,.match{height: 290px;background-size: 250%}
+.mapping h3,.making h3,.match h3{font-size: 17px;width: 340px}
+
+}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+.mapping,.making,.match{height: 200px;background-size: 250%}
+.menu{position: absolute; margin-left: 260px}
+.slider{height: 200px;margin: 0}
+.slider img{height: 200px; width: auto}
+.pattern3 h1{font-size: 12px;}
+.irport{zoom:80%;margin-top: 10px}
+.pattern h1{font-size: 18px;padding-top: 30px}
+.pattern img {display: none}
+.space{padding: 16px}
+h3{font-size: 17px}
+h4{font-size: 13px}
+.info{position: absolute;padding-left: 50px;padding-top: -30px}
+.contact{background-size: 680%;height: 850px}
+.gray,.white{background: none; height: 560px}
+.black{height: 850px}
+input,textarea{width: 230px; font-size: 13px}
+form button{width: 240px}
+.cont{padding-left: 30px}
+.irport2{margin-top: -20px; float: left;margin-bottom: 30px}
+footer{height: 250px}
+.sm2 img{margin-top: 30px}
+  .modal img {zoom:55%}
+.mapping h1,.making h1,.match h1{padding: 20px 0 0 0}
+.down{ position:absolute;padding:0px 0 0 350px; margin-top: -100px;zoom:70%;}
+.circle2{margin-left: 100px;margin-bottom: 0px;margin-top: 60px}
+.accordion-inner h5 { position: absolute;margin-top: -70px;}
+.accordion-inner ul {	padding-bottom: 100px;padding-top: 150px;font-size: 14px}
+.mapping,.making,.match{height: 290px;background-size: 350%}
+.mapping h3,.making h3,.match h3{font-size: 14px;width: 200px}
+.accordion-inner{margin-left: -150px}
+}

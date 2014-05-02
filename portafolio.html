@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="author" content="">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+	<title>Lomas Marketing</title>
+	<link rel="stylesheet" type="text/css" href="css/base.css">
+	<link rel="stylesheet" type="text/css" href="fonts/fonts.css">
+	<link rel="stylesheet" type="text/css" href="css/layout.css">
+	<link rel="stylesheet" type="text/css" href="css/skeleton.css">
+       <script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+<!--[if lt IE 9]><script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+<!--[if (gte IE 6)&(lte IE 8)]>
+  <script type="text/javascript" src="js/selectivizr-min.js"></script>
+  <noscript><link rel="stylesheet" href="[fallback css]" /></noscript>
+ <![endif]-->
+
+</head>
+<body>
+ <header class="pattern2">
+  <section class="container">
+    <article class="three columns logo">
+    <a href="index.html"><img src="images/lomasch.png"></a></article>
+      <nav class="menu">
+        <a href="index.html#contacto"><li><img src="images/mail.png"></li></a>
+      </nav>
+    </section>
+</header>   
+<section class="container portafolio">
+     <h5 class="seven columns">NUESTRO TRABAJO</h5> 
+     <div class="botonr nine columns">
+    <a href="proceso.html"><div class="irport2">¿CÓMO LO HACEMOS?</div></a></div>
+  </div>
+</section>
+<div class="container center">
+                    <ul class="port">
+                       
+    <li><a class="open-modal link" href="javascript:void(0)"><img src="images/losrancheros.png"/></a><div class="modal-container dp-none"><div class="modal"></div></div></li>
+    <li><a class="open-modal link" href="javascript:void(0)"><img src="images/sigloxxi.png"/></a><div class="modal-container dp-none"><div class="modal"></div></div></li>
+    <li><a class="open-modal link" href="javascript:void(0)"><img src="images/oikia.png"/></a><div class="modal-container dp-none"><div class="modal"></div></div></li>
+    <li><a class="open-modal link" href="javascript:void(0)"><img src="images/optimus.png"/></a><div class="modal-container dp-none"><div class="modal"></div></div></li>
+    <li><a class="open-modal link" href="javascript:void(0)"><img src="images/smilty.png"/></a><div class="modal-container dp-none"><div class="modal"></div></div></li>
+    <li><a class="open-modal link" href="javascript:void(0)"><img src="images/alberum.png"/></a><div class="modal-container dp-none"><div class="modal"></div></div></li>
+    <li><a class="open-modal link" href="javascript:void(0)"><img src="images/romero.png"/></a><div class="modal-container dp-none"><div class="modal"></div></div></li>
+    <li><a class="open-modal link" href="javascript:void(0)"><img src="images/vgrafica.png"/></a><div class="modal-container dp-none"><div class="modal"></div></div></li>
+    <li><a class="open-modal link" href="javascript:void(0)"><img src="images/owlock.png"/></a><div class="modal-container dp-none"><div class="modal"></div></div></li>
+    <li><a class="open-modal link" href="javascript:void(0)"><img src="images/virage.png"/></a><div class="modal-container dp-none"><div class="modal"></div></div></li>
+    <li><a class="open-modal link" href="javascript:void(0)"><img src="images/vinatex.png"/></a><div class="modal-container dp-none"><div class="modal"></div></div></li>
+    <li><a class="open-modal link" href="javascript:void(0)"><img src="images/spoongo.png"/></a><div class="modal-container dp-none"><div class="modal"></div></div></li>
+
+                     
+                     
+                    </ul>
+                </div>
+                <!--SCRIPT MODAL-->
+<script>
+     var body = $('body'),
+    main = $('.main'),
+    open_modal = $('.open-modal'),
+    close_modal = $('.close-modal'),
+    modal_container = $('.modal-container'),
+    toggleModal = function() 
+ {
+        body.toggleClass('body-locked');
+        modal_container.toggleClass('dp-block');
+
+   var imagenx = $(this).children("img");
+   
+ 
+   if(imagenx !=undefined)
+   {
+     var direccion = imagenx.attr("src");
+    
+     $(".modal").html("<img src=\"x"+direccion+"\" alt=''\"/>");
+     $(".modal").children("img").hide();
+     $(".modal").children("img").fadeIn(1000, function(){
+      $(".modal-container").scrollTop( 0);
+     });
+     
+
+   }
+
+    };
+ 
+ open_modal.on('click', toggleModal);
+ modal_container.on('click',toggleModal);
+ </script>
+    <div class="pattern3">
+<h1>CREAMOS EXPERIENCIAS QUE CAUSAN EMOCIONES</h1><br>
+
+  <footer>
+    <div class="container">
+      <div class="one-third column sm2">
+        <li><a href="https://twitter.com/lomas"><img  id="tw" src="images/tw.png"></a></li>
+        <li><a href="https://www.facebook.com/lomas"><img id="fb" src="images/fb.png"></a></li>
+        <li><a href="http://www.linkedin.com/company/lomas"><img id="in" src="images/in.png"></a></li>
+        <li><a href="https://www.behance.net/lomas"><img  id="be" src="images/be.png"></a></li>
+    </div>
+
+      <div class="four columns icon"><img src="images/icon2.png"><h3>+52 (449) 146 4262</h3></div>
+      <div class="six columns icon2"><img src="images/icon1.png"><h3> 
+      Av. Convención Sur #910, Jardines de Aguascalientes.
+        Aguascalientes, Mx. C.P.20270</h3></div>
+    </div>  </div>
+  </footer>            
+</html>

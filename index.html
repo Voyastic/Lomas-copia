@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="author" content="">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+	<title>Lomas Marketing</title>
+	<link rel="stylesheet" type="text/css" href="css/base.css">
+	<link rel="stylesheet" type="text/css" href="fonts/fonts.css">
+	<link rel="stylesheet" type="text/css" href="css/layout.css">
+	<link rel="stylesheet" type="text/css" href="css/skeleton.css">
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script src="js/jquery.glide.js"></script>
+
+
+<!--[if lt IE 9]><script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+<!--[if (gte IE 6)&(lte IE 8)]>
+  <script type="text/javascript" src="js/selectivizr-min.js"></script>
+  <noscript><link rel="stylesheet" href="[fallback css]" /></noscript>
+ <![endif]-->
+</head>
+<body>
+<article class="container logoh">
+		<img src="images/lomasch.png">
+	<div class="menu">
+				<a href="index.html#contacto"><img src="images/mail.png"></a>
+			</div>
+			<div class="boton">
+		<a href="portafolio.html"><div class="irport"> IR A PORTAFOLIO</div></a></div>
+	</article>
+	<div class="container letter"><h1>CREAMOS EXPERIENCIAS <br>QUE CAUSAN EMOCIONES</h1>
+</div>
+			<div class="slider">
+			<ul class="slides">
+			<li class="slide"><a href="portafolio.html"><img src="images/sl1.jpg"></a></li>
+				<li class="slide"><a href="portafolio.html"><img src="images/s1.jpg"></a></li>
+				<li class="slide"><a href="portafolio.html"><img src="images/s3.jpg"></a></li>
+				<li class="slide"><a href="portafolio.html"><img src="images/s5.jpg"></a></li>
+				<li class="slide"><a href="portafolio.html"><img src="images/s4.jpg"></a></li>
+
+
+			</ul>
+		</div>
+
+		<script>
+    var glide = $('.slider').glide({
+					afterTransition: function() {
+						var currentSlide = this.currentSlide;
+						console.log(currentSlide);
+					}
+				}).data('api_glide');
+
+				$(window).on('keyup', function (key) {
+					if (key.keyCode === 13) {
+						glide.jump(3, console.log('Wooo!'));
+					};
+				});
+
+				$('.slider-arrow').on('click', function() {
+					console.log(glide.current());
+				});
+
+</script>
+	
+<section class="main container">
+	<div class="one-third column gray">
+		<a href="proceso.html"><div class="circle"><img src="images/lentes.png"></div></a>
+		<div class="desc">
+			<h2>MAPPING</h2>
+			<p>Analizamos panoramas,  objetivos y posibilidades del mercado para generar estrategias de marca coordinadas por la creatividad y la innovación en valor.</p>
+		</div>
+	</div>
+	<div class="one-third column">
+	<a href="proceso.html"><div class="circle"><img src="images/lab.png"></div></a>
+		<div class="desc">
+			<h2>MAKING</h2>
+			<p>Activamos nuestras habilidades artísticas para crear herramientas de comunicación que sean el hilo conductor entre experiencias y emociones para los consumidores.</p>
+		</div>
+	</div>
+	</div>
+	<div class="one-third column gray">
+		<a href="proceso.html"><div class="circle"><img src="images/adn.png"></div></a>
+		<div class="desc">
+			<h2>MATCH</h2>
+			<p>Conectamos la estrategia de comunicación de marca con los medios adecuados para cada proyecto. Creemos en alternativas de vanguardia que revolucionen la forma de comunicar con las nuevas tecnologías de la información.</p>
+		</div>
+	</div>
+	</div>
+</section>
+<div class="pattern">
+	<article class="container">
+	<h1>NOS INTERESA CONOCERTE</h1> <img src="images/down.png"></article>
+</div>
+<section class="contact">
+<div class="container black">
+	<div class="seven columns space">		<h3>ENCUÉNTRANOS TAMBIEN EN:</h3>
+		<div class="sm">
+   		    <li><a href="https://twitter.com/lomas"><img  id="tw" src="images/tw.png"></a></li>
+    		<li><a href="https://www.facebook.com/lomas"><img id="fb" src="images/fb.png"></a></li>
+    		<li><a href="http://www.linkedin.com/company/lomas"><img id="in" src="images/in.png"></a></li>
+    		<li><a href="https://www.behance.net/lomas"><img  id="be" src="images/be.png"></a></li>
+		</div>
+		<div class="one column icor">
+		<img src="images/iconr2.png">
+		<br>
+		<img src="images/iconr1.png">
+		</div>
+		<div class="four columns info">
+			<h3>+52 (449) 146 4262</h3>
+			<h3>Dirección: </h3> 
+			<h4>Av. Convención Sur #910, <br>Jardines de Aguascalientes.<br>
+				Aguascalientes, Mx. C.P.20270</h4>
+		</div>
+
+	</div>
+<a name="#contacto"></a>
+<div class="seven columns cont"> 
+		<h3>DÉJANOS TU MENSAJE</h3>
+
+  <form id="contact" action="enviar_c.php" method="post">
+
+    <label>
+        <input id="name" type="text" required="" placeholder="Nombre" title="Nombre" name="nombre"/>
+    </label>
+    <label>
+        <input id="email" type="email" required="" placeholder="Correo electrónico" title="Email" name="correo"/>
+    </label>
+     <label>
+        <input id="telefono" type="text" required="" placeholder="Teléfono" title="telefono" name="telefono"/>
+    </label>
+    <label>
+        <textarea id="message" required="" placeholder="Mensaje" title="mensaje" rows="5" cols="45" name="message"></textarea>
+    </label>
+    <button id="button" name="button" type="submit"> 
+ENVIAR
+    </button> </form>
+</div>
+</div>
+</section>
+<div class="liner"></div>
+<iframe frameBorder='0' src='http://a.tiles.mapbox.com/v3/andrapo.i2b45chc/attribution,zoompan,zoomwheel,geocoder,share.html'></iframe>
+</body>
+</html>
