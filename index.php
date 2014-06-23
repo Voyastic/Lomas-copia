@@ -3,7 +3,7 @@
 <head>
   <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
     <meta name="author" content="">
     <meta name="description" content="">
     <meta name="keywords" content="">
@@ -13,9 +13,14 @@
 	<link rel="stylesheet" type="text/css" href="css/layout.css">
 	<link rel="stylesheet" type="text/css" href="css/skeleton.css">
 	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="/scripts/retina.js"></script> 
 	<script src="js/jquery.glide.js"></script>
-
-
+<!--[if lt IE 9]>
+<link rel="stylesheet" type="text/css" media="all" href="css/layout.css"/>
+<![endif]-->
+<!--[if lt IE 9]>
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
 <!--[if lt IE 9]><script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 <!--[if (gte IE 6)&(lte IE 8)]>
   <script type="text/javascript" src="js/selectivizr-min.js"></script>
@@ -24,9 +29,9 @@
 </head>
 <body>
 <article class="container logoh">
-		<img src="images/lomasch.png">
+		<img class="size"src="images/logo.png">
 	<div class="menu">
-				<a href="index.html#contacto"><img src="images/mail.png"></a>
+				<a href="#contacto"><img src="images/mail.png"></a>
 			</div>
 			<div class="boton">
 		<a href="portafolio.html"><div class="irport"> IR A PORTAFOLIO</div></a></div>
@@ -35,17 +40,15 @@
 </div>
 			<div class="slider">
 			<ul class="slides">
-			<li class="slide"><a href="portafolio.html"><img src="images/sl1.jpg"></a></li>
-				<li class="slide"><a href="portafolio.html"><img src="images/s1.jpg"></a></li>
-				<li class="slide"><a href="portafolio.html"><img src="images/s3.jpg"></a></li>
-				<li class="slide"><a href="portafolio.html"><img src="images/s5.jpg"></a></li>
-				<li class="slide"><a href="portafolio.html"><img src="images/s4.jpg"></a></li>
-
-
+			<li class="slide"><img src="images/sl1.jpg"></li>
+			
 			</ul>
 		</div>
 
-		<script>
+	<!--	<script>
+		function log(obj) {
+    if (window.console && console.log) console.log(obj);
+}
     var glide = $('.slider').glide({
 					afterTransition: function() {
 						var currentSlide = this.currentSlide;
@@ -63,33 +66,36 @@
 					console.log(glide.current());
 				});
 
-</script>
+</script>-->
 	
 <section class="main container">
 	<div class="one-third column gray">
-		<a href="proceso.html"><div class="circle"><img src="images/lentes.png"></div></a>
 		<div class="desc">
+			<br>
 			<h2>MAPPING</h2>
 			<p>Analizamos panoramas,  objetivos y posibilidades del mercado para generar estrategias de marca coordinadas por la creatividad y la innovación en valor.</p>
 		</div>
 	</div>
-	<div class="one-third column">
-	<a href="proceso.html"><div class="circle"><img src="images/lab.png"></div></a>
+	<div class="one-third column white">
 		<div class="desc">
+						<br>
+
 			<h2>MAKING</h2>
 			<p>Activamos nuestras habilidades artísticas para crear herramientas de comunicación que sean el hilo conductor entre experiencias y emociones para los consumidores.</p>
 		</div>
 	</div>
 	</div>
 	<div class="one-third column gray">
-		<a href="proceso.html"><div class="circle"><img src="images/adn.png"></div></a>
 		<div class="desc">
+						<br>
+
 			<h2>MATCH</h2>
 			<p>Conectamos la estrategia de comunicación de marca con los medios adecuados para cada proyecto. Creemos en alternativas de vanguardia que revolucionen la forma de comunicar con las nuevas tecnologías de la información.</p>
 		</div>
 	</div>
 	</div>
 </section>
+
 <div class="pattern">
 	<article class="container">
 	<h1>NOS INTERESA CONOCERTE</h1> <img src="images/down.png"></article>
@@ -103,20 +109,21 @@
     		<li><a href="http://www.linkedin.com/company/lomas"><img id="in" src="images/in.png"></a></li>
     		<li><a href="https://www.behance.net/lomas"><img  id="be" src="images/be.png"></a></li>
 		</div>
-		<div class="one column icor">
-		<img src="images/iconr2.png">
-		<br>
-		<img src="images/iconr1.png">
+		<div class="one column icor"><img src="images/corr.png"><br><img src="images/iconr2.png"><br><img src="images/iconr1.png">
 		</div>
 		<div class="four columns info">
-			<h3>+52 (449) 146 4262</h3>
+			<a href="mailto:
+&#099;&#111;&#110;&#116;&#097;&#099;&#116;&#111;&#064;&#108;&#111;&#109;&#097;&#115;&#046;&#109;&#120;"><h3>&#099;&#111;&#110;&#116;&#097;&#099;&#116;&#111;&#064;&#108;&#111;&#109;&#097;&#115;&#046;&#109;&#120;</h3></a>
+			<h3>+52 (449) 146 4262
+			<br>+52 (449) 146 4282</h3>
+
 			<h3>Dirección: </h3> 
 			<h4>Av. Convención Sur #910, <br>Jardines de Aguascalientes.<br>
 				Aguascalientes, Mx. C.P.20270</h4>
 		</div>
 
 	</div>
-<a name="#contacto"></a>
+<a name="contacto"></a>
 <div class="seven columns cont"> 
 		<h3>DÉJANOS TU MENSAJE</h3>
 
@@ -142,5 +149,51 @@ ENVIAR
 </section>
 <div class="liner"></div>
 <iframe frameBorder='0' src='http://a.tiles.mapbox.com/v3/andrapo.i2b45chc/attribution,zoompan,zoomwheel,geocoder,share.html'></iframe>
+<div class="liner"></div>
+
+<section class="posts">
+
+
+	<div class="container">
+		<div class="twelve columns">
+	<h1 class="tp"> POSTS RECIENTES</h1>
+<?php 
+	require($_SERVER['DOCUMENT_ROOT'] . '/wp/wp-load.php'); 
+	$args = array(
+		// 'cat' => 4, // Only source posts from a specific category
+		'posts_per_page' => 4 // Specify how many posts you'd like to display
+	);
+	$latest_posts = new WP_Query( $args ); 	
+	if ( $latest_posts->have_posts() ) {
+		while ( $latest_posts->have_posts() ) {
+			$latest_posts->the_post(); ?>
+	<div class="two columns">
+<div class="foto">
+<?php echo get_avatar( get_the_author_meta('ID'), 60);?></div></div>
+<div class="en style nine columns">
+
+    	<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>" class="rojo">
+	<?php if ( has_post_thumbnail() ) { ?>
+		<p class="post_thumbnail"><?php the_post_thumbnail(); ?></p>
+	<?php } ?>
+			<span class="post_title"><?php the_title(); ?></span>
+		</a>
+		<p class="post_time">Posted on <?php the_time('l jS F, Y') ?></p>
+		<?php the_excerpt(); ?>
+
+
+	<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>">
+		<button class="ver"> Seguir leyendo..</button> </a><br><hr></div>
+
+<? } 
+		} else {
+		echo '<h1>There are no posts available</h1>';
+	}
+	wp_reset_postdata();
+?>		
+
+</div>
+</div></section>
+ 
 </body>
 </html>

@@ -1,34 +1,80 @@
+@media only screen and (max-width: 1780px) {
+		.letter{position: absolute;z-index: 9999;}
+.letter h1{font-size: 45px; color: white;text-align:left;padding-top: 280px;position: absolute;}
+.boton{padding-top: 450px;position: absolute;z-index: 999}
+	.size{width: 200px;height:auto;padding-left: 0px}
+}
 
+@media only screen and (max-width: 1600px) {
+		.letter{position: absolute;z-index: 9999;}
+.letter h1{font-size: 30px; color: white;text-align:left;padding-top: 200px;position: absolute;padding-left: 70px}
+.menu{position: absolute; padding-left: 600px}
+.size{width: 200px;height:auto;padding-left: 70px}
+.slider{height: 600px}
+.slider img{height:100%;width: auto;}
+.menu img{padding-top: 40px;position: absolute;margin-left: 200px}
+.boton{padding-top: 320px;position: absolute;z-index: 999;padding-left: 80px}
+
+	}
 
 	
-	@media only screen and (max-width: 1300px) {
+	@media only screen and (min-width: 1300px) and (max-width: 1600px) {
 		.mapping,.making,.match{height: 400px;background-size: 200%}
 .contact{height: 500px; width: 100%; background-size: 170%}
 .slider{height: auto;margin: 0}
+.letter{position: absolute;z-index: 9999;}
+.letter h1{font-size: 30px; color: white;text-align:left;padding-top: 180px;position: absolute;padding-left:100px }
+.boton{padding-top: 400px;position: absolute;z-index: 999;zoom:80%;padding-left: 130px}
+	.logoh img{padding-left: 100px}
+.slider{height: 600px;width: 100%}
+.slider img{height:auto;width: 100%;}
+.menu{margin-left: 0px;position: absolute;}
+
 	}
 
 	/* Smaller than standard 960 (devices and browsers) */
-	@media only screen and (max-width: 959px) {
+	@media only screen and (min-width: 960px) and(max-width: 1299px) {
 .contact{height: 500px; width: 100%; background-size: 190%}
-
+.letter{position: absolute;z-index: 9999;}
+.letter h1{font-size: 30px; color: white;text-align:left;padding-top: 180px;position: absolute;padding-left: 100px}
+.boton{padding-top: 350px;position: absolute;z-index: 999;zoom:80%;padding-left: 130px}
+.size{width: 200px;height:auto;padding-left: 120px}
+.menu img{padding-top: 40px;position: absolute;margin-left: 250px}
+.slider{height: 400px}
+.slider img{height:auto;width: 100%;}
 	}
 
 	/* Tablet Portrait size to standard 960 (devices and browsers) */
 	@media only screen and (min-width: 768px) and (max-width: 959px) {
 .mapping,.making,.match{height: 300px;background-size: 200%}
 .contact{height: 500px; width: 100%; background-size: 200%}
+.menu{position: absolute; padding-left: 400px}
 h3{font-size: 17px}
 h4{font-size: 13px}
+.slider img{height: 500px;width: auto}
+.slider{height: 500px}
 input,textarea{width: 300px; font-size: 13px}
 form button{width: 310px}
+.letter{position: absolute;z-index: 9999;}
+.letter h1{font-size: 60px; color: white;text-align:left;padding-top: 180px;position: absolute;padding-left: 150px}
+.boton{padding-top: 300px;position: absolute;z-index: 999;padding-left: 150px}
+.pattern3 h1{font-size: 24px;}
+.boton2{position: absolute; padding-left: 320px;margin-top: 15px;zoom:80%;}
+.size{width: 200px;height:auto;padding-left: 150px}
+.slider-arrow--right,.slider-arrow--left,.slider-arrow--right:hover,.slider-arrow--left:hover{display: none}
+.sm2 img{zoom:80%;}
+.down{padding-left: 100px}
+
+
 	}
+
 
 	/* All Mobile Sizes (devices and browser) */
 	@media only screen and (max-width: 767px) {
 .mapping,.making,.match{height: 280px;width: 100%}
-.menu{position: absolute; margin-left: 260px}
-.slider{height: 200px;margin: 0}
-.slider img{height: 200px; width: auto}
+.menu{display: none}
+.slider{height: 500px}
+.slider img{height:auto;width: 100%;}
 .pattern3 h1{font-size: 12px;}
 .irport{zoom:80%;margin-top: 10px}
 .pattern h1{font-size: 18px;padding-top: 30px}
@@ -38,21 +84,28 @@ h3{font-size: 17px}
 h4{font-size: 13px}
 .info{position: absolute;padding-left: 50px;padding-top: -30px}
 .contact{background-size: 680%;height: 850px}
-.gray,.white{background: none; height: 560px}
+.gray,.white{background: none; height: 360px}
 .black{height: 850px}
 input,textarea{width: 230px; font-size: 13px}
 form button{width: 240px}
 .cont{padding-left: 30px}
 .irport2{margin-top: -20px; float: left;margin-bottom: 30px}
-footer{height: 250px}
+.footer{height: 300px}
 .sm2 img{margin-top: 30px}
-      .modal img {zoom:70%}
- }
+.modal img {zoom:70%}
+.slider img{height: 400px;width: auto}
+.slider{height: 400px}
+.slider-arrow--right,.slider-arrow--left,.slider-arrow--right:hover,.slider-arrow--left:hover{display: none}
+ .letter{position: absolute;z-index: 9999;}
+.letter h1{font-size: 20px; color: white;text-align:left;padding-top: 130px;position: absolute;}
+.boton{padding-top: 240px;position: absolute;z-index: 999;zoom:80%;padding-left: 160px}
+.size{width: 200px;height:auto;padding-left: 150px}
+
+}
 
 	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 	@media only screen and (min-width: 480px) and (max-width: 767px) {
-		.contact{background-size: 500%;height: 800px}
-.menu{position: absolute; margin-left: 400px}
+.contact{background-size: 500%;height: 800px}
 .pattern3 h1{font-size: 18px}
 h3{font-size: 17px}
 h4{font-size: 13px}
@@ -62,7 +115,7 @@ h4{font-size: 13px}
 .pattern h1{font-size: 18px;padding-top: 30px}
 .pattern img{padding-top: 3px}
 .irport2{margin-top: -20px; float: left;margin-bottom: 30px}
-footer{height: 250px}
+.footer{height: 350px}
 .sm2 img{margin-top: 30px}
 .modal img {zoom:80%}
 .mapping h1,.making h1,.match h1{padding: 40px 0 0 0}
@@ -72,33 +125,39 @@ footer{height: 250px}
 .accordion-inner ul {	padding-bottom: 100px;padding-top: 150px;}
 .mapping,.making,.match{height: 290px;background-size: 250%}
 .mapping h3,.making h3,.match h3{font-size: 17px;width: 340px}
+.size{width: 150px;height:auto;padding-left: 0px}
+.menu{display: none}
+.gray,.white{background: none; height: 240px;}
+.main{height:850px}
+.letter h1{font-size: 30px; color: white;text-align:left;padding-top: 180px;position: absolute;padding-left: 0px}
+.boton{padding-top: 280px;position: absolute;z-index: 999;zoom:80%;padding-left: 0px}
 
 }
 
 	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 	@media only screen and (max-width: 479px) {
 .mapping,.making,.match{height: 200px;background-size: 250%}
-.menu{position: absolute; margin-left: 260px}
-.slider{height: 200px;margin: 0}
-.slider img{height: 200px; width: auto}
+.menu{display: none}
+.main{height: 880px}
 .pattern3 h1{font-size: 12px;}
-.irport{zoom:80%;margin-top: 10px}
+.irport{zoom:80%;margin-top: 10px;margin-left: 20px}
 .pattern h1{font-size: 18px;padding-top: 30px}
 .pattern img {display: none}
 .space{padding: 16px}
 h3{font-size: 17px}
 h4{font-size: 13px}
-.info{position: absolute;padding-left: 50px;padding-top: -30px}
+.info{position: absolute;padding-left: 0px;padding-top: -30px}
+.info h3, .info h4{padding-left: 40px}
 .contact{background-size: 680%;height: 850px}
-.gray,.white{background: none; height: 560px}
+.gray,.white{background: none; height: 240px}
 .black{height: 850px}
 input,textarea{width: 230px; font-size: 13px}
 form button{width: 240px}
 .cont{padding-left: 30px}
 .irport2{margin-top: -20px; float: left;margin-bottom: 30px}
-footer{height: 250px}
+.footer{height: 370px}
 .sm2 img{margin-top: 30px}
-  .modal img {zoom:55%}
+.modal img {zoom:55%}
 .mapping h1,.making h1,.match h1{padding: 20px 0 0 0}
 .down{ position:absolute;padding:0px 0 0 350px; margin-top: -100px;zoom:70%;}
 .circle2{margin-left: 100px;margin-bottom: 0px;margin-top: 60px}
@@ -107,4 +166,12 @@ footer{height: 250px}
 .mapping,.making,.match{height: 290px;background-size: 350%}
 .mapping h3,.making h3,.match h3{font-size: 14px;width: 200px}
 .accordion-inner{margin-left: -150px}
-}
+.boton2{padding-top: 100px}
+.letter{position: absolute;z-index: 9999;}
+.letter h1{font-size: 18px; color: white;text-align:left;padding-top: 130px;position: absolute;width: 300px;margin-left: -35px}
+.boton{padding-top: 380px;position: absolute;z-index: 999;zoom:50%}
+.size{zoom:70%;height:auto;padding-left: 0px}
+.slider{height:100%}
+.slider img{height:300px;width: auto;}
+button.ver{margin-left: 130px}
+button.ver:hover{margin-left: 130px}
